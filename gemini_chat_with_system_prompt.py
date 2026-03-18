@@ -6,8 +6,8 @@ from google.genai import types
 st.set_page_config(page_title="Gemini Chatbot with System Prompt", page_icon="💬")
 
 # Header
-st.title("💬 Gemini Chatbot")
-st.caption("Customize the chatbot's behavior using the system prompt in the sidebar")
+st.title("💬 Xavier's  1st Chatbot")
+st.caption("Up to you: customize your chatbot's behavior using the system prompt in the left sidebar")
 
 # Initialize Gemini client
 client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
